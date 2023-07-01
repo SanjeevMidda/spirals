@@ -1,0 +1,28 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content:center;
+  align-items:start;
+  height: 100vh;
+  margin-top: 40px;
+}
+
+.spiral{
+  width: 2px;
+  height: 70vh;
+  background-color: blue;
+  margin: 10px;
+  position: absolute;
+  /* animation: move 1s linear infinite; */
+  margin-top: 80px;
+}
+
+@keyframes move{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(180deg);}
+}
